@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VARIABLES */
+body {
+  --blue: #93b5c9;
+  --wine: #ab2849;
+}
+nav {
+  height: 15vh;
+  background: var(--wine);
+}
+main > header {
+  height: 25vh;
+  background: var(--blue);
+}
+main {
+  height: 75vh;
+}
+section,
+div {
+  background: var(--wine);
+  height: 10vh;
+  width: 80vw;
+  margin-bottom: 1em;
+  float: right;
+}
+footer {
+  height: 10vh;
+  background-color: var(--wine);
+  width: 90vw;
+  left: 5vw;
+  margin: 0 5vw;
+}
